@@ -66,6 +66,7 @@ footer {
 }
 
 small {
+    margin-bottom: 20px;
     text-align: center;
     font-size: 1.7rem;
 }
@@ -77,6 +78,19 @@ img {
     border-radius: 10px;
     height: 300px;
     object-fit: cover;
+}
+
+#menuContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+#menu {
+    height: 700px;
+    object-fit: contain;
+    margin: 0 0 20px 0;
 }
 
 /* Typography */
