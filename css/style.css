@@ -41,6 +41,7 @@ section {
 /* Header Styles */
 
 a {
+    font-weight: 700;
     text-decoration: none;
     color: black;
 }
@@ -92,10 +93,12 @@ h1, h2, p {
 h1, h2 {
     margin-top: 25px;
     font-size: 4rem;
+    font-weight: 700;
     width: 50vw;
 }
 
 p {
+    color: black;
     width: 50vw;
 }
 
